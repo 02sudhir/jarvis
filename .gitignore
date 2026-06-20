@@ -1,0 +1,78 @@
+# Dependencies
+node_modules/
+.npm
+package-lock.json
+yarn.lock
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+.next/
+out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Misc
+.cache/
+.eslintcache
+.next
+out
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+Thumbs.db
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Testing
+.mocha
+.pytest_cache/
+__pycache__/
+
+# ML Models
+*.pkl
+*.h5
+*.joblib
+*.model
+
+# Temporary
+tmp/
+temp/
+*.tmp
